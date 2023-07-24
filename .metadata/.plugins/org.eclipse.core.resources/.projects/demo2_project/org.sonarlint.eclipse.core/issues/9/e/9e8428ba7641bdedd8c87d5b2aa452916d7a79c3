@@ -1,0 +1,10 @@
+
+‡
+java:S5669"UCast this argument to 'RequestMatcher' to pass a single element to the vararg method.(†Ø³'8¢ã¢Ä–1HÀRMAJORZ
+CODE_SMELL
+[
+java:S1604"(Make this anonymous inner class a lambda(ÿãŽ×8ö‘ñÃ–1HÁRMAJORZ
+CODE_SMELL
+d
+java:S1611"2Remove the parentheses around the "csrf" parameter(†Ø³'8¢ã¢Ä–1HÂRMINORZ
+CODE_SMELL

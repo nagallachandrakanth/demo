@@ -1,0 +1,23 @@
+package jdbc_practice;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class InsertData {
+
+	public void insertData(Student student) {
+		String url = "jdbc:mysql://localhost:3306/cci?user=root&password=root";
+		String query="insert into employee values('"+student.getId()+"','"+student.getName()+"','"+student.getEmailid()+"')";
+		
+		
+		Connection connection=null;
+		PreparedStatement preparedStatement=null;
+		
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

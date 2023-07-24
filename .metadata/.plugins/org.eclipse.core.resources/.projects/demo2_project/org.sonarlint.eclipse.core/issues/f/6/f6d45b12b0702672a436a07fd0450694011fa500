@@ -1,0 +1,7 @@
+
+l
+java:S2789""@Methods with an "Optional" return type should never return null.(¥¹ï8ª’åª“1HôRMAJORZBUG
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©”şöHõRMINORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(°ò’Ø8ÖÌÕ¬“1HóRMAJORZ
+CODE_SMELL

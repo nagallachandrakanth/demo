@@ -1,0 +1,20 @@
+package jdbc_practice;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class StudentMain {
+	public static void main(String[] args) {
+		ArrayList<Student> arrayList = new ArrayList<Student>();
+		arrayList.add(new Student(1, "suresh", "suresh@gmail.com"));
+		arrayList.add(new Student(1, "naresh", "naresh@gmail.com"));
+		arrayList.add(new Student(3, "Rajesh", "Rajesh@gmail.com"));
+		
+		Iterator<Student> iterator = arrayList.iterator();
+		while (iterator.hasNext()) {
+			InsertData.insert(iterator.next());
+		}
+
+	}
+
+}

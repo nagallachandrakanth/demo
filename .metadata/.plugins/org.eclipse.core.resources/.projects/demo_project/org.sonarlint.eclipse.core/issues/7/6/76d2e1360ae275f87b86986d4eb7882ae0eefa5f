@@ -1,0 +1,9 @@
+
+†
+java:S1602""SRemove useless curly braces around statement and then remove useless return keyword(ƒ¼©—8½òÔ¡“1HŠRMINORZ
+CODE_SMELL
+}	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(“‹ê¤ùÿÿÿÿ8é×Ü¡“1H‹RMAJORZ
+CODE_SMELL
+o
+java:S1128"7Remove this unused import 'java.util.stream.Collector'.(ß‹ÎÓøÿÿÿÿ8½òÔ¡“1H…RMINORZ
+CODE_SMELL

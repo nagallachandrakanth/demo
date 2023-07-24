@@ -1,0 +1,13 @@
+package com.te.demo2_project.configaration;
+
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.web.SecurityFilterChain;
+
+public class ProjectConfigaration {
+	
+	SecurityFilterChain securityFilterChain(HttpSecurity http) {
+		return null;
+		
+	}
+
+}

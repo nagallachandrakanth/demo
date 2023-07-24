@@ -1,0 +1,7 @@
+
+›
+java:S3252#"`Use static access with "org.hibernate.id.enhanced.SequenceStyleGenerator" for "INCREMENT_PARAM".(‘ãƒ€þÿÿÿÿ8¼Ã¦ƒ’1HÊRCRITICALZ
+CODE_SMELL
+‘
+java:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(½›øòúÿÿÿÿ8Ð±—†’1HÈRMINORZ
+CODE_SMELL

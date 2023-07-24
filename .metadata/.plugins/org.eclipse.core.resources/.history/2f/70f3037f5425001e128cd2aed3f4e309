@@ -1,0 +1,40 @@
+package com.te.demo2_project.configaration;
+
+import java.util.ArrayList;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+
+public class ProjectConfigaration {
+
+	SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+
+		http.cors().configurationSource(new CorsConfigurationSource() {
+			
+			@Override
+			public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
+              CorsConfiguration configurationSource=new CorsConfiguration()
+				return null;
+			}
+		})
+		
+		.csrf().disable().authorizeHttpRequests().antMatchers("/public").hasRole("ADMIN")
+				.antMatchers("/public/employeeRegistration").hasRole("EMPLOYEE").anyRequest().authenticated().and()
+				.httpBasic().and().formLogin();
+		return http.build();
+	}
+
+	@Bean
+	public PasswordEncoder passwordEncoder() {
+		return new BCryptPasswordEncoder();
+
+	}
+
+}

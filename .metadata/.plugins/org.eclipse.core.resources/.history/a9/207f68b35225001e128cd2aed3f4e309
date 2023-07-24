@@ -1,0 +1,17 @@
+package com.te.demo2_project.configaration;
+
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.web.SecurityFilterChain;
+
+public class ProjectConfigaration {
+
+	SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+
+		http.csrf().disable().authorizeHttpRequests().antMatchers("/public").hasRole("ADMIN")
+		.antMatchers("/public/employeeRegistration").hasRole("EMPLOYEE").anyRequest()
+				.authenticated().and().httpBasic().and().formLogin();
+		return http.build();
+
+	}
+
+}

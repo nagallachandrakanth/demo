@@ -1,0 +1,10 @@
+
+|
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(’Şµ/8’ƒß·1HĞRBLOCKERZBUG
+k	java:S106"9Replace this use of System.out or System.err by a logger.(°í”–8£¥å·1HÑRMAJORZ
+CODE_SMELL
+m
+java:S1118":Add a private constructor to hide the implicit public one.(®üÂ8ˆ»Äº1HÒRMAJORZ
+CODE_SMELL
+p	java:S106 "9Replace this use of System.out or System.err by a logger.(‰İ˜¹úÿÿÿÿ8”‹Â¸1HÓRMAJORZ
+CODE_SMELL

@@ -1,0 +1,10 @@
+package jdbc_practice;
+
+public class InsertData {
+
+	public void insertData(Student student) {
+		String url = "jdbc:mysql://localhost:3306/cci?user=root&password=root";
+		String query="insert into employee values('"+student.getId()+"','"+student.getName()+"','"+student.getEmailid()+"')";
+	}
+
+}

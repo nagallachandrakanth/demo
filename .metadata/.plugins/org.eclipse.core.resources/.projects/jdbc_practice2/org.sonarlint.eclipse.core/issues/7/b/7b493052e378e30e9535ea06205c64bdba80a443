@@ -1,0 +1,13 @@
+
+v
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(¨ð¢ô8úËßÂ˜1H¨RBLOCKERZBUG
+|
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(’Þµ/8úËßÂ˜1H©RBLOCKERZBUG
+k	java:S106!"9Replace this use of System.out or System.err by a logger.(×•œ²8úËßÂ˜1H«RMAJORZ
+CODE_SMELL
+p	java:S106%"9Replace this use of System.out or System.err by a logger.(¨á¤Ïüÿÿÿÿ8úËßÂ˜1H­RMAJORZ
+CODE_SMELL
+p	java:S106#"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8úËßÂ˜1H¬RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ÚˆÓúýÿÿÿÿ8úËßÂ˜1HªRMAJORZ
+CODE_SMELL
